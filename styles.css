@@ -1,0 +1,107 @@
+header{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-left: auto;
+  overflow: auto;
+}
+
+#js{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-left: 0;
+  padding-left: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#main-doc{
+  font-family: sans-serif;
+}
+
+.main-section{
+margin-left: 26%;
+padding-left: 10px;
+font-family: sans-serif;
+}
+
+.info, p {
+font-family: sans-serif;
+}
+
+.border{
+background-color: #E1E1E1;
+border-radius: 2px;
+width: 50%;
+}
+
+.indent{
+  margin-left: 1em;
+  font-family: courier;
+  font-size: 13px
+}
+
+#navbar{
+  list-style-type: none; 
+  height: auto;
+  position:fixed;
+  overflow: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.bullet-points{
+  list-style-type: none;
+  padding: 0;
+ width: 25%;
+  background-color: #f1f1f1;
+height: 100%;
+  position: fixed;
+  border: solid;
+  font-weight: bold;
+  text-align: center; 
+  font-family: sans-serif;
+}
+
+#navbar li:hover{
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+.nav-link{
+  text-align: center;
+  display: block;    
+    margin: auto;
+    padding-top: 30px;
+}
+
+li > a {
+ color: #000;
+ height: 50px;
+  text-decoration: none;
+  text-align: center;
+  border: 0.5px solid;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+*{
+scroll-behavior: smooth;
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+#nav-bar{
+width: 675px;
+}
+.keys{
+  width: 633px;
+}
+}
+
+@media (prefers-reduced-motion){
+}
